@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Unkeaross - Web Development & Python</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Unkeaross</h1>
+            <h1>Web Development & Python</h1>
+        </header>
+        <div>
+            <section>
+                <img src="images/Dev.jpg" alt="A picture of peoples doing web developement" id="dev-image">
+            </section>
+            <section class="my-button">
+                <a id="my-button1" class="butt" href="#about">About</a>
+                <a id="my-button2" class="butt" href="#skills">Skills</a>
+                <a id="my-button3" class="butt" href="#projects">Projects</a>
+                <a id="my-button4" class="butt" href="#whats-next">What's next?</a>
+                <a id="my-button5" class="butt" href="#contact">Contact</a>
+            </section>
+        </div>
+        <main>
+            <section id="about" class="about">
+                <h2>About</h2>
+                <p>My name is MOREAU Lino, I'm learning python and web development, and want to build useful tools to help. I like solving problems with code.</p>
+                <p>I'm actually a high school student in Première STI2D in France, and I love to program during my free time. I'm currently learning python, HTML and CSS on FreeCodeCamp, a free website.</p>
+                <p>I'm aiming to become a web engineer and develop websites, applications and tools that solve real problems.</p>       
+            </section>
+            <section id="skills" class="skills">
+                <h2>Skills</h2>
+                <h3>Languages</h3>
+                <div class="languages-list">
+                    <p>Python</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                </div>
+                <h3>Tools</h3>
+                <div class="tools-list">
+                    <p>Git</p>
+                    <p>GitHub</p>
+                    <p>VS Code</p>
+                    <p>PyCharm</p>
+                    <p>GDevelop</p>
+                </div>    
+            </section>
+            <section id="projects" class="projects">
+                <h2>Projects</h2>
+                <div id="project-box">
+                    <div class="TM">
+                        <h3>Task Manager Python</h3>
+                        <p class="special-p">This project is a task manager that you can launch in a python interpreter.</p>
+                        <p id="task-manager-description">With it, you can:</p>
+                        <ul>
+                            <li>View tasks</li>
+                            <li>Add tasks</li>
+                            <li>Mark tasks as done</li>
+                            <li>Delete tasks</li>
+                            <li>Exit the program to save your tasks into a json file</li>
+                        </ul>
+                        <a class="project-link" href="https://github.com/Lino-MOREAU/Task_Manager_Python" target="_blank">View on GitHub</a>
+                    </div>
+                    <div class="TM">
+                        <h3>GDevelop Game</h3>
+                        <p class="special-p">I made a platformer game on GDevelop entirely by myself. It took me several days but I'm happy of the result. The game is about a little character that must reach a treasure, but to access it it must pass some monsters.</p>
+                        <img src="images/GDGame.png" alt="A picture of the GDevelop game" id="GDGame-image">
+                        <a class="project-link" href="https://gd.games/the_unkn0wn/platformer" target="_blank">Try it online</a>
+                    </div>
+                </div>
+            </section>
+            <section id="whats-next">
+                <h2>What's next?</h2>
+                <div id="WN-align">
+                    <div class="WN-Container">
+                        <h3>Python Certification</h3>
+                        <p>My next goal is to complete the Python certification on FreeCodeCamp.</p>
+                        <p class="pre-ul">What I want to improve:</p>
+                        <ul>
+                            <li>Object-oriented programming</li>
+                            <li>Error handling</li>
+                            <li>Working with files</li>
+                            <li>Writing cleaner code</li>
+                        </ul>
+                        <img src="images/FCC.png" alt="freecodecamp logo" id="fcc-foto">
+                        <a href="https://www.freecodecamp.org/learn/python-v9/" target="_blank" class="project-link">View website</a>
+                    </div>
+                    <div class="WN-Container">
+                        <h3>First Application</h3>
+                        <p>One of my next goals is to build my first complete application.</p>
+                        <p>This project will help me improve my programming skills, learn how to structure a larger project, and understand how different technologies can work together.</p>
+                        <p class="pre-ul">Technologies I plan to use:</p>
+                        <ul>
+                            <li>HTML / CSS</li>
+                            <li>JavaScript</li>
+                            <li>Python</li>
+                            <li>SQL</li>
+                            <li>Git / GitHub</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="contact">
+                <h2>Contact</h2>
+                <form action="https://formspree.io/f/xdeglzqv" method="POST">
+                    <div id="The_blocky">
+                        <div id="blocky">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div id="blockay">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <label for="message" class="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </main>    
+    </body>
+    <footer>
+        <p>© 2026 Unkeaross. All rights reserved.</p>
+    </footer>
+</html>
